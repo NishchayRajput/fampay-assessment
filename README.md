@@ -1,16 +1,67 @@
-# fampay
+# fampay-assessment
 
-A new Flutter project.
+A new Flutter project intended as an assessment for FamPay.
+
+## Overview
+
+This repository contains the source code for a Flutter application. The project utilizes Dart as its primary programming language and is structured to be cross-platform, supporting web, Linux, and Windows builds.
+
+## Features
+
+- Modular Flutter application structure.
+- Card management logic with both remote and local data handling.
+- Built-in methods to filter and manage card groups and their visibility.
+- Ready to run on multiple platforms (web, Linux, Windows).
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a starting point for a Flutter application. To get up and running:
 
-A few resources to get you started if this is your first Flutter project:
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/NishchayRajput/fampay-assessment.git
+   cd fampay-assessment
+   ```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+2. **Install dependencies:**
+   ```sh
+   flutter pub get
+   ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+3. **Run the app:**
+    - For web:
+      ```sh
+      flutter run -d chrome
+      ```
+    - For desktop (Linux/Windows):
+      ```sh
+      flutter run -d linux   # or -d windows
+      ```
+
+## Project Structure
+
+- `lib/`: Main application code.
+    - `components/card_state/`: Card repository and state management.
+    - `model/`: Data models for cards and groups.
+    - `service/`: Remote and local services for data operations.
+- `web/`, `linux/`, `windows/`: Platform-specific build and configuration files.
+- `README.md`: Project documentation.
+
+## Useful Resources
+
+- [Flutter: Write your first app](https://docs.flutter.dev/get-started/codelab)
+- [Flutter Cookbook](https://docs.flutter.dev/cookbook)
+- [Flutter Documentation](https://docs.flutter.dev/)
+
+## Requirements
+
+- [Flutter SDK](https://flutter.dev/docs/get-started/install)
+- Dart SDK (bundled with Flutter)
+
+## License
+
+This project currently does not specify a license.
+
+---
+
+For any questions or issues, please open an issue on the [GitHub repository](https://github.com/NishchayRajput/fampay-assessment).
