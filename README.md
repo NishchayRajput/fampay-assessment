@@ -13,6 +13,13 @@ This repository contains the source code for a Flutter application. The project 
 - Built-in methods to filter and manage card groups and their visibility.
 - Ready to run on multiple platforms (web, Linux, Windows).
 
+## Demo
+
+- [Live Demo on Web](./Demo.mp4)
+-  This video consist the how dynamically the components have been rendered using the api response.
+
+`**Note** : Current api response doesn't have '{}' in the formatted_title field so in Component HC6 and HC1 we cannot see the corresponding entity text as per the UI. `
+
 ## Getting Started
 
 This project is a starting point for a Flutter application. To get up and running:
